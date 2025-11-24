@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6fb;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main layout */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+header h1 {
+    margin-top: 0;
+    color: #1e4baa; /* blue */
+    font-size: 32px;
+    border-bottom: 2px solid #dde3f5;
+    padding-bottom: 10px;
+}
+
+.meta {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Section headings */
+section h2 {
+    color: #1e4baa;
+    font-size: 22px;
+    margin-top: 25px;
+    border-left: 4px solid #1e4baa;
+    padding-left: 8px;
+}
+
+/* Lists */
+.subtopics,
+.files {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.subtopics li,
+.files li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #1e4baa;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #777;
+    border-top: 1px solid #dde3f5;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fafbff;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+}
+
+table td:first-child {
+    width: 18%;
+    font-weight: bold;
+}
